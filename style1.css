@@ -1,0 +1,33 @@
+.suggestion-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.suggestion-image {
+    width: 80%; /* Adjust size as needed */
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hairstyle-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.hairstyle-option-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.hairstyle-option-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

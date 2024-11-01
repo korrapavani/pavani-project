@@ -1,0 +1,114 @@
+/* Overall Styling */
+body {
+    font-family: 'Playfair Display', serif; /* Elegant font for main content */
+    padding: 20px;
+    background-image: url("fashion-bg3.jpg"); /* Background image */
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire background */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height */
+    margin: 0; /* Remove default margin */
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* Heading Style */
+h1 {
+    font-family: 'Arial', sans-serif; /* Updated font style for the header */
+    font-size: 3rem; /* Heading size */
+    color: #000000; /* Updated color for the sentence "Welcome to StyleMe Assistant" */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+    margin-bottom: 20px; /* Margin below heading */
+    text-align: left; /* Align text to the left */
+    margin-left: 10%; /* Align to the left with some spacing */
+}
+
+/* Upload Section Styling */
+.upload-section {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    padding: 20px; /* Padding inside the section */
+    width: 80%; /* Width of the section */
+    max-width: 500px; /* Max width */
+    margin: 20px 0 20px 10%; /* Align to the left with some spacing */
+    border: 2px solid #ddd; /* Light gray border */
+}
+
+label {
+    font-weight: bold; /* Bold font for labels */
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Margin around labels */
+}
+
+input[type="file"] {
+    display: block; /* Block display for file input */
+    margin: 0 auto 10px; /* Center alignment */
+    font-family: 'Arial', sans-serif; /* Font for file input */
+    font-size: 1rem; /* Font size */
+}
+
+/* Button Styling */
+button {
+    background-color: #e63946; /* Button background color */
+    color: #ffffff; /* Button text color */
+    font-size: 1.2rem; /* Button font size */
+    padding: 10px 20px; /* Button padding */
+    margin-top: 10px; /* Margin above button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    transition: 0.3s; /* Transition effect */
+}
+
+button:hover {
+    background-color: #d62828; /* Button hover color */
+}
+
+/* Styling Suggestions Section */
+.suggestions-section {
+    margin-top: 20px; /* Margin above section */
+    padding: 20px; /* Padding inside section */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ddd; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 80%; /* Width of the section */
+    max-width: 500px; /* Max width */
+    margin: 0 auto; /* Center alignment */
+}
+
+/* Styling Suggestions Titles */
+.suggestions-section h2 {
+    font-family: 'Playfair Display', serif; /* Font for suggestions title */
+    font-size: 2rem; /* Font size for title */
+    color: #333; /* Text color */
+    margin-bottom: 10px; /* Margin below title */
+}
+
+/* Styling Results as Images */
+.suggestion-image {
+    display: inline-block; /* Inline block for images */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width */
+    height: auto; /* Automatic height */
+    margin-top: 10px; /* Margin above image */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Additional Hairstyle Options */
+.hairstyle-options img {
+    width: 100px; /* Width of hairstyle images */
+    height: 100px; /* Height of hairstyle images */
+    border-radius: 50%; /* Circular image */
+    margin: 10px; /* Margin around images */
+    transition: transform 0.3s; /* Transition effect */
+}
+
+.hairstyle-options img:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+    cursor: pointer; /* Pointer on hover */
+}
